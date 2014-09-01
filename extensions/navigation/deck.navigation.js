@@ -90,5 +90,14 @@ This module adds clickable previous and next links to the deck.
   });
 
   $document.bind('deck.change', updateButtons);
+
+  $('.prevarrow').on('click', function(){
+    $('.deck-prev-link').click();
+  });
+  
+  $('.nextarrow').on('click', function(){
+    $('.deck-next-link').click();
+  });
+
 })(jQuery);
 

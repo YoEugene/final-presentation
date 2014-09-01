@@ -40,6 +40,7 @@
   z-index: 99;
   left: 20px;
   top: 40%;
+  width: 8%;
   cursor: pointer;
 }
 .prevarrow:hover{
@@ -51,6 +52,7 @@
   z-index: 99;
   right: 20px;
   top: 40%;
+  width: 8%;
   cursor: pointer;
 }
 .nextarrow:hover{
@@ -63,7 +65,7 @@
   }
 }
 
-@media only screen and (max-device-width: 480px){
+@media only screen and (max-device-width: 768px){
   .prevarrow{
     display: block;
   }
