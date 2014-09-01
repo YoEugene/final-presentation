@@ -255,7 +255,7 @@ video, iframe, img {
 }
 
 p, blockquote, iframe, img, ul, ol, pre, video {
-  margin-bottom: 1em;
+  margin-bottom: 0em;
 }
 
 pre {
