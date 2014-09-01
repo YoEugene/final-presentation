@@ -39,8 +39,8 @@
   position: fixed;
   z-index: 99;
   left: 20px;
-  bottom: 10px;
-  width: 4%;
+  top: 40%;
+  width: 8%;
   cursor: pointer;
 }
 .prevarrow:hover{
@@ -51,8 +51,8 @@
   position: fixed;
   z-index: 99;
   right: 20px;
-  bottom: 10px;
-  width: 4%;
+  top: 40%;
+  width: 8%;
   cursor: pointer;
 }
 .nextarrow:hover{
