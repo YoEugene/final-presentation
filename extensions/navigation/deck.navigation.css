@@ -39,11 +39,11 @@
   position: fixed;
   z-index: 99;
   left: 20px;
-  top: 40%;
+  top: 45%;
   width: 8%;
   cursor: pointer;
 }
-.prevarrow:hover{
+.prevarrow:active{
   opacity: 0.5;
 }
 .nextarrow{
@@ -51,11 +51,11 @@
   position: fixed;
   z-index: 99;
   right: 20px;
-  top: 40%;
+  top: 45%;
   width: 8%;
   cursor: pointer;
 }
-.nextarrow:hover{
+.nextarrow:active{
   opacity: 0.5;
 }
 
